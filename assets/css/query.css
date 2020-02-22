@@ -1,0 +1,176 @@
+@media only screen and (min-width: 1376px) {
+    .f-width {
+        -webkit-box-flex: 0;
+        flex            : 0 0 86%;
+    }
+
+    .icon-style {
+        -webkit-box-flex: 0;
+        flex            : 0 0 10%;
+    }
+
+}
+
+@media only screen and (max-width: 1269px) {
+    body {
+        line-height: 1.8rem !important;
+        overflow-x : hidden;
+    }
+
+    .navbar-default .navbar-nav>li {
+        margin-left: 3.2rem;
+    }
+
+    .ml-7 {
+        margin-left: 3rem !important;
+    }
+
+    .navbar-brand {
+        margin: 0 25px;
+    }
+
+    .container {
+        width: 98%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    html {
+        font-size: 58.5%;
+    }
+
+    .navbar-default .navbar-nav>li {
+        margin-left: 1rem;
+    }
+
+    .col-sm-10.col-sm-offset-1 {
+        width      : 96%;
+        margin-left: 2%;
+    }
+
+    .h1-style {
+        font-size: 5.5rem;
+    }
+
+    .btn-style {
+        font-size: 1.3rem;
+    }
+
+    .h4-style {
+        font-size: 1.7rem;
+    }
+
+    .project-mr,
+    .project-de,
+    .project-pr {
+        padding: 2.3rem 0.5rem;
+    }
+}
+
+
+/* Small phones to small tablets: from 481px to 768px */
+@media only screen and (max-width: 767px) {
+    .heading {
+        padding: 5rem 0 5rem 0;
+    }
+
+    .p-main {
+        padding-bottom: 10rem;
+    }
+
+    .h1-style {
+        font-size: 5rem;
+    }
+
+    .nav-wrap {
+        width  : 100%;
+        display: block;
+    }
+
+    .navbar-nav {
+        display: block;
+    }
+
+    .navbar-default {
+        height: auto;
+    }
+
+    .navbar-collapse.in {
+        overflow: hidden;
+    }
+
+    .navbar-brand {
+        height: 4.2rem;
+        margin: 1rem 2.5rem;
+    }
+
+    .bg-border {
+        border-bottom: 1px solid #d1d1d118;
+        border-right : 0;
+    }
+
+    .navbar-default .navbar-nav>li>a:link,
+    .navbar-default .navbar-nav>li>a:visited,
+    .navbar-default .navbar-nav>li>a:hover,
+    .navbar-default .navbar-nav>li>a:active {
+        text-align : left;
+        font-size  : 1.7rem;
+        color      : white;
+        line-height: 20px;
+        margin     : 3rem 2rem;
+    }
+
+    .navbar-default .navbar-nav>li>a.a-color {
+        font-size: 1.4rem;
+        margin   : 0 1rem;
+        padding  : 1rem .5rem !important;
+    }
+
+    .btn-style {
+        margin: 0;
+    }
+
+    .navbar-nav {
+        margin: 0;
+    }
+
+    .navbar-toggle {
+        padding: 1.2rem 1rem;
+    }
+
+    .container {
+        width: 96%;
+    }
+}
+
+/* Small phones: from 0 to 425px */
+@media only screen and (max-width: 425px) {
+    .col-sm-10.col-sm-offset-1 {
+        width      : 94%;
+        margin-left: 3%;
+    }
+
+    .h1-style-sec {
+        font-size  : 4.3rem;
+        font-weight: bolder;
+    }
+
+    .h2-style {
+        text-align: left;
+        padding   : 3.5rem .3rem;
+        font-size : 3.6rem;
+        margin    : 0;
+    }
+}
+
+/* Small phones: from 0 to 390px */
+@media only screen and (max-width: 390px) {
+    .btn--js {
+        padding: 2.3rem 2rem;
+    }
+
+    .h1-style-sec {
+        font-size  : 3.7rem;
+        font-weight: bolder;
+    }
+}

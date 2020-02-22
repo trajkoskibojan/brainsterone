@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="title" content="Project_1" />
+  <meta name="description" content="Project_1" />
+  <meta name="keywords" content="Programming, Design, Marketing, Data" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/query.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,400i,500,500i,700&display=swap&subset=cyrillic"
+    rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/4c5632d7e4.js" crossorigin="anonymous"></script>
+  <title>Project_1</title>
+</head>
+
+<body class="body">
+  <nav class="navbar navbar-default nav-shadow">
+    <div class="nav-wrap">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar"
+          aria-expanded="false">
+          <i class="fas fa-times menu-icon select-hide"></i>
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar icon-middle"></span>
+          <span class="icon-bar icon-bottom"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="./assets/Logo.svg" alt="LOGO" /></a>
+      </div>
+
+      <div class="collapse navbar-collapse " id="bs-navbar">
+        <ul class="nav navbar-nav  ">
+          <li><a href="https://www.brainster.io/marketpreneurs" target="_blank">Академија за маркетинг</a></li>
+          <li><a href="http://codepreneurs.co/" target="_blank">Академија за програмирање</a></li>
+          <li><a href="#" target="_blank">Академија за data science</a></li>
+          <li><a href="https://www.brainster.io/design" target="_blank">Академија за дизајн</a></li>
+          <li class="ml-7 btn-style">
+            <a href="form.html" class="a-color">Вработи наш студент</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="p-main" id="main">
+    <div class="heading">
+      <h1 class="h1-style h1-style-sec">Вработи студенти</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1">
+          <div class="row">
+            <form method="get">
+            <div class="col-sm-6 px-1">
+              <div class="form-group">
+                <label for="name">Име и презиме</label>
+                <input type="text" name="name" id="name" class="form-control form-bd input-lg"
+                  placeholder="Вашето име и презиме " aria-describedby="helpId" required>
+              </div>
+            </div>
+            <div class="col-sm-6 px-1">
+              <div class="form-group">
+                <label for="company">Име на компанија</label> 
+                <input type="text" name="company" id="company"
+                  class="form-control form-bd input-lg" placeholder="Име на вашата компанија" aria-describedby="helpId"
+                  required>
+              </div>
+            </div>
+            <div class="col-sm-6 px-1">
+              <div class="form-group">
+                <label for="email">Контакт имејл</label>
+                <input type="email" name="email" id="email" class="form-control form-bd input-lg" value=""
+                  placeholder="Контакт имејл на вашата компанија" required>
+              </div>
+            </div>
+            <div class="col-sm-6 px-1">
+              <div class="form-group">
+                <label for="tel">Контакт телефон</label>
+                <input type="tel" name="tel" id="tel" class="form-control form-bd input-lg numberonly" minlength="9" 
+                placeholder="Контакт телефон на вашата компанија" required>
+              </div>
+            </div>
+            <div class="col-sm-6 px-1">
+                <div class="form-group">
+                  <div class="custom-select"> 
+                    <label for="select">Тип на студенти</label>
+                  <select class="form-control form-bd input-lg select" name="select" id="select" required> 
+                    <option value="0" >Изберете тип на студент</option>
+                    <option value="Студент од маркетинг">Студент од маркетинг</option>
+                    <option value="Студент од програмирање">Студент од програмирање</option>
+                    <option value="Студент од data science">Студент од data science</option>
+                    <option value="Студент од дизајн">Студент од дизајн</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 px-1">
+              <div class="form-group">
+                <label for="submit" class="label-hide">label</label>
+                <button type="submit" id="submit"
+                  class="btn btn-danger btn-block btn-large text-uppercase">Испрати</button>
+              </div>
+            </div>
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="p-1" id="footer">
+    <span>Изработено со <i class="fa fa-heart i-heart" aria-hidden="true"></i> од студентите на Brainster</span>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+    integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+    crossorigin="anonymous"></script>
+  <script src="./assets/js/form.js" type='module'></script>
+</body>
+
+</html>
